@@ -7,6 +7,9 @@ android {
     namespace 'com.example.shoppinglist'
     compileSdk 33
 
+    buildFeatures {
+        viewBinding true
+    }
     defaultConfig {
         applicationId "com.example.shoppinglist"
         minSdk 26
